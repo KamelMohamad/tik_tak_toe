@@ -1,5 +1,6 @@
 package com.example.tik_tak_toe
 
+import com.example.tik_tak_toe.model.CellValue
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -12,6 +13,7 @@ import org.junit.Assert.*
 class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
+
         assertEquals(4, 2 + 2)
     }
 }

@@ -21,4 +21,15 @@ class BoardTest {
             assertEquals(expectedColumnCount,row.size)
         }
     }
+
+    @Test
+    fun `When we create an instance of a board, cell values are EMPTY`(){
+        val expectedCellValue = CellValue.EMPTY
+        val board = Board()
+        for(row in board.rows){
+            for(cell in row){
+                assertEquals(expectedCellValue, cell)
+            }
+        }
+    }
 }
