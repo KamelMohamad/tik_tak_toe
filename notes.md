@@ -21,24 +21,15 @@ As a player, I want to see a score tracker that keeps count of X wins, O wins, a
 As a player, I want to choose whether I play as X or O at the start of each game.
 As a player, I want to enter my name and see it displayed during the game.
 
-POMODORO 1
-create 3 by 3 board
-  ✅ 3,3 ---> [any,any,any,
-            any, any, any,
-            any,any, any]
-
-POMODORO 2:
-
-✅ array elements should be OF ENUM TYPE
-    ✅ CELL TYPE: ENUM. ENUM VALUE: EMPTY ---> [ EMPTY, EMPTY, EMPTY
-                                                 EMPTY, EMPTY, EMPTY
-                                                 EMPTY, EMPTY, EMPTY]
-
-POMODORO 3: 
-🤲 Create board view 
-
-POMODORO 4:
-🤲 Create board view
-
-POMODORO 5:
-✅ Create board view
+NOTES:
+✅As a player, I want to see an empty 3x3 grid when I start the game.
+    create 3 by 3 board, starts empty
+        ✅ 3,3 ---> [any,any,any,
+                any, any, any,
+                any,any, any]
+    ✅ array elements should be OF ENUM TYPE empty
+        ✅ CELL TYPE: ENUM. ENUM VALUE: EMPTY ---> [ EMPTY, EMPTY, EMPTY
+                                                     EMPTY, EMPTY, EMPTY
+                                                     EMPTY, EMPTY, EMPTY]
+    Create board view
+        ✅New board --> 9 empty cells
