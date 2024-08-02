@@ -7,7 +7,7 @@ to place X or O only in empty cells. THe game ends when we have either a row or 
 
 USER STORIES:
 ✅ As a player, I want to see an empty 3x3 grid when I start the game.
-As a player, I want to be able to place an 'X' in an empty cell by tapping it.
+🙌 As a player, I want to be able to place an 'X' in an empty cell by tapping it.
 As a player, I want the game to switch to the other player after I make a move.
 As a player, I want the game to prevent me from placing a mark in an already occupied cell.
 As a player, I want the game to detect when there's a horizontal win (3 in a row).
@@ -33,3 +33,10 @@ NOTES:
                                                      EMPTY, EMPTY, EMPTY]
     Create board view
         ✅New board --> 9 empty cells
+
+🙌 As a player, I want to be able to place an 'X' in an empty cell by tapping it.
+        ✅create empty view model
+        when creating a new instance of GameViewModel, then a state property is accessible and contains empty 3 by 3 board model
+        given an instance of GameViewModel, when I invoke setCellValue with X on empty cell, then state is updated and reflects the changes
+
+        
