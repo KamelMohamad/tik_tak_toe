@@ -7,8 +7,9 @@ to place X or O only in empty cells. THe game ends when we have either a row or 
 
 USER STORIES:
 ✅ As a player, I want to see an empty 3x3 grid when I start the game.
-As a player, I want to be able to place an 'X' in an empty cell by tapping it.
+🙏 As a player, I want to be able to place an 'X' in an empty cell by tapping it.
 As a player, I want the game to switch to the other player after I make a move.
+As a player, I want to be able to place an 'O' in an empty cell by tapping it.
 As a player, I want the game to prevent me from placing a mark in an already occupied cell.
 As a player, I want the game to detect when there's a horizontal win (3 in a row).
 As a player, I want the game to detect when there's a vertical win (3 in a column).
@@ -23,13 +24,9 @@ As a player, I want to enter my name and see it displayed during the game.
 
 NOTES:
 ✅As a player, I want to see an empty 3x3 grid when I start the game.
-    create 3 by 3 board, starts empty
-        ✅ 3,3 ---> [any,any,any,
-                any, any, any,
-                any,any, any]
-    ✅ array elements should be OF ENUM TYPE empty
-        ✅ CELL TYPE: ENUM. ENUM VALUE: EMPTY ---> [ EMPTY, EMPTY, EMPTY
-                                                     EMPTY, EMPTY, EMPTY
-                                                     EMPTY, EMPTY, EMPTY]
     Create board view
         ✅New board --> 9 empty cells
+
+## Units
+Place mark in cell
+    🙏Cell at 0,0 and is empty --> Place X
